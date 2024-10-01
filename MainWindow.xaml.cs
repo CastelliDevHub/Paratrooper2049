@@ -98,13 +98,13 @@ namespace Paratrooper2049
             MyCanvas.Focus();
             ////-------------------
             ////da eliminare per avere finestra setup
-            //WorldGenerator();
+            WorldGenerator();
 
-            //GameTimer = new DispatcherTimer();
-            //GameTimer.Interval = TimeSpan.FromMilliseconds(cycleTime);
-            //GameTimer.Tick += GameLoop;
-            //GameTimer.Start();
-            //FirstRun = false;
+            GameTimer = new DispatcherTimer();
+            GameTimer.Interval = TimeSpan.FromMilliseconds(cycleTime);
+            GameTimer.Tick += GameLoop;
+            GameTimer.Start();
+            FirstRun = false;
             ////-------------------
         }
 
